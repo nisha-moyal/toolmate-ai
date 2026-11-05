@@ -246,6 +246,9 @@ loop (max 5 times):
 10. Save the conversation to Redis
 11. Return {"response": "..."}
 
+---
+
+## What LLM does?
 
 1. User message
 2. LLM understands the request
