@@ -247,15 +247,12 @@ loop (max 5 times):
 11. Return {"response": "..."}
 
 
-User message
-    ↓
-LLM understands the request
-    ↓
-LLM compares it with tool descriptions
-    ↓
-LLM returns either:
-    - a normal answer, or
-    - a structured tool call
+1. User message
+2. LLM understands the request
+3. LLM compares it with tool descriptions
+4. LLM returns either:
+5. a normal answer, or
+6. a structured tool call
 ---
 
 ## Important implementation notes
